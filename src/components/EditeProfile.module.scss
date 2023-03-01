@@ -1,0 +1,94 @@
+.contaniner {
+  direction: rtl;
+
+  padding: 20px;
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.imageBox {
+  width: 104px;
+  height: 104px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  margin-right: 10%;
+  border: 1px solid #b5b5c3;
+  background: url("../../public/image1.png");
+}
+.activeButton {
+  width: 100%;
+  border-radius: 5px;
+  padding: 8px;
+  gap: 10px;
+  background-color: #b0bf24;
+  border-color: #b0bf24;
+  color: white;
+}
+.disableButton {
+  width: 100%;
+  border-radius: 5px;
+  padding: 8px;
+  color: #b0bf24;
+  border-color: #b0bf24;
+  margin-right: 5px;
+  background-color: white;
+}
+.checkbox {
+  display: flex;
+  margin-left: 40px;
+  P {
+    font-family: "DanaFaNum";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #656565;
+    margin-right: 5px;
+  }
+
+  div {
+    display: flex;
+  }
+}
+.image {
+  display: flex;
+  justify-content: center;
+  @media (max-width: 480px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+.input {
+  width: 95%;
+  height: 25px;
+  margin-top: 5px;
+  border: solid thin;
+  border-radius: 5px;
+}
+.title {
+  @media (max-width: 480px) {
+    display: flex;
+    justify-content: center;
+  }
+  p {
+    font-weight: 800;
+    font-size: 12px;
+    color: #404040;
+    margin-right: 5px;
+    @media (max-width: 480px) {
+      text-align: center;
+    }
+  }
+}
+.smile {
+  width: 24px;
+  height: 24px;
+  color: #ffcc4d;
+  margin-top: 8px;
+}
+.icon {
+  margin-top: 80px;
+  color: #ffcc4d;
+}

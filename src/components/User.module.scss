@@ -1,0 +1,69 @@
+.image {
+  width: 62px;
+  height: 62px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #3f4254;
+  @media (max-width: 480px) {
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+   
+    
+      }
+  
+ 
+}
+
+.name{
+  @media (max-width: 480px) {
+   display: none;
+  
+   
+     }
+
+}
+.container {
+  direction: rtl;
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+  @media (max-width: 480px) {
+ justify-content: center;
+ align-items: center;
+
+  }
+
+  div {
+    h2 {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 32px;
+      /* identical to box height, or 145% */
+      margin-right: 15px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #3f4254;
+    }
+    p {
+      font-family: "DanaFaNum";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      margin-right: 15px;
+
+      display: flex;
+
+      margin-top: -15px;
+
+      /* Gray/800 - 3F4254 */
+
+      color: #3f4254;
+    }
+  }
+}
